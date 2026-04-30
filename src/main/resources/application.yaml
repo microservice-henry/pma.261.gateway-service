@@ -33,6 +33,11 @@ spring:
               uri: http://auth:8080 # hostname da maquina
               predicates:
                 - Path=/auth/**
+
+            - id: orders
+              uri: http://order:8080
+              predicates:
+                - Path=/orders/**
       metrics:
         enabled: true
 
