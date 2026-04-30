@@ -28,9 +28,6 @@ flowchart LR
 |---|---|---|
 | `auth` | `/auth/**` | `http://auth:8080` |
 | `accounts` | `/accounts/**` | `http://account:8080` |
-| `products` | `/products/**` | `http://product:8080` |
-| `exchange` | `/exchange/**` | `http://exchange:8080` |
-| `orders` | `/orders/**` | `http://order:8080` |
 | `insper` | `/insper/**` | `https://www.insper.edu.br` |
 
 ## Authorization Filter
